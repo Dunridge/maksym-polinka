@@ -1,82 +1,82 @@
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400.500.600.700.800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400.500.600.700.800,900&display=swap");
 
 /* TODO: later on extract the theme colors into variables and play around with color combinations */
 
 /* reset for the links */
 
-a, a:visited {
-    color: black;
-    text-decoration: none;
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    background: #fff;
-    margin: 50px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
 .container .left_Side {
-    position: relative;
-    background: #003147;
-    padding: 40px;
+  position: relative;
+  background: #003147;
+  padding: 40px;
 }
 
 #pdf-export {
-    cursor: pointer;
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    z-index: 100;
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 100;
 }
 
 .profileText {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .profileText .img8x {
-    position: relative;
-    user-select: none;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+  position: relative;
+  user-select: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 /* TODO: fix this padding issue */
 
 .refugee-status {
-    display: flex !important;
+  display: flex !important;
 }
 
 .refugee-text {
-    padding-left: 4px !important;
+  padding-left: 4px !important;
 }
 
 /* .work-authorization {
@@ -94,88 +94,88 @@ body {
 } */
 
 .profileText h2 {
-    color: #fff;
-    font-size: 1.5em;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    line-height: 1.4em;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
 }
 
 .profileText h2 span {
-    font-size: 0.8em;
-    font-weight: 300;
+  font-size: 0.8em;
+  font-weight: 300;
 }
 
 .contactInfo {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 .title {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
 .contactInfo ul {
-    position: relative;
+  position: relative;
 }
 
 .contactInfo ul li {
-    position: relative;
-    list-style: none;
-    margin: 10px 0;
-    cursor: pointer;
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
 
-    /* margin-bottom: 9px; */
+  /* margin-bottom: 9px; */
 }
 
 .language-item {
-    margin-bottom: 14px !important;
+  margin-bottom: 14px !important;
 }
 
 .contactInfo ul li .icon {
-    display: inline-block;
-    width: 10px;
-    font-style: 18px;
-    color: #03a9f4;
-    margin: 0 6px;
+  display: inline-block;
+  width: 10px;
+  font-style: 18px;
+  color: #03a9f4;
+  margin: 0 6px;
 }
 
 .contactInfo ul li .text {
-    color: #fff;
-    font-weight: 300;
+  color: #fff;
+  font-weight: 300;
 }
 
 .contactInfo ul li .link {
-    padding-left: 4px;
+  padding-left: 4px;
 }
 
 .contactInfo.education li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .contactInfo.education h5 {
-    color: #03a9f4;
-    font-weight: 500;
+  color: #03a9f4;
+  font-weight: 500;
 }
 
 .contactInfo.education h4:nth-child(2) {
-    color: #fff;
-    font-weight: 500;
+  color: #fff;
+  font-weight: 500;
 }
 
 .contactInfo.education h4,
 .contactInfo.education h4 a {
-    color: #fff;
-    font-weight: 300;
+  color: #fff;
+  font-weight: 300;
 }
 
 .contactInfo.language .certification {
-    display: flex;
+  display: flex;
 }
 /* 
 .contactInfo.language a {
@@ -184,457 +184,463 @@ body {
 
 .contactInfo.language .certification,
 .contactInfo.language a {
-    color: #03a9f4;
-    font-size: 14px;
-    /* display: block; */
+  color: #03a9f4;
+  font-size: 14px;
+  /* display: block; */
 }
 
 .contactInfo.language .percent {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: #081921;
-    display: block;
-    margin-top: 5px;
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
 }
 
 .contactInfo.language .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
 }
 
 .language-info {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .language-info .certification {
-    margin-left: 4px;
+  margin-left: 4px;
 }
 
 /* right side */
 
 .container .right_Side {
-    position: relative;
-    background: #fff;
-    padding: 40px;
+  position: relative;
+  background: #fff;
+  padding: 40px;
 }
 
 .about {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .about:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .title2 {
-    color: #003147;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 p {
-    color: #333;
+  color: #333;
 }
 
 .responsibilities {
-    padding-left: 18px;
+  padding-left: 18px;
 }
 
 .responsibilities-title {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
 .about .box {
-    display: flex;
-    font-display: row;
-    margin: 20px 0;
+  display: flex;
+  font-display: row;
+  margin: 20px 0;
 }
 
 .box--skills {
-    justify-content: start !important;
+  justify-content: start !important;
+  flex-direction: column;
+  align-items: flex-start !important;
+  gap: 4px;
+}
+
+.box--skills span {
+  font-weight: 600;
 }
 
 .about .box .year_company {
-    min-width: 150px;
+  min-width: 150px;
 }
 
 /* TODO: add the word-break so the years stay on the same line*/
 /* .about .box .year_company h5 { */
-    /* white-space: nowrap; */
+/* white-space: nowrap; */
 /* } */
 
 .about .box .year_company h5 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
 }
 
 .about .box .text h4 {
-    text-transform: uppercase;
-    color: #2a7da2;
-    font-size: 16px;
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 16px;
 }
 
 .about .box .text-subhead {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .about .box .text-stack {
-    font-weight: 600;
-    font-style: italic;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .skills .box {
-    position: relative;
-    width: 100%;
-    /* display: grid; */
-    /* grid-template-columns: 150px 1fr; */
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  /* display: grid; */
+  /* grid-template-columns: 150px 1fr; */
+  justify-content: center;
+  align-items: center;
 }
 
 .skills .box h4 {
-    text-transform: uppercase;
-    /* color: #848c99; */
-    font-weight: 500;
+  text-transform: uppercase;
+  /* color: #848c99; */
+  font-weight: 500;
 
-    /* TODO: own code */
-    padding-right: 4px;
+  /* TODO: own code */
+  padding-right: 4px;
 }
 
 .skills .box .percent {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f0f0f0;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #f0f0f0;
 }
 
 .skills .box .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
 }
 
 .interests ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .interests ul li {
-    list-style: none;
-    color: #333;
-    font-weight: 500;
-    margin: 10px 0;
+  list-style: none;
+  color: #333;
+  font-weight: 500;
+  margin: 10px 0;
 }
 
 .interests ul li .fa {
-    color: #03a9f4;
-    font-style: 18px;
-    width: 20px;
+  color: #03a9f4;
+  font-style: 18px;
+  width: 20px;
 }
 
 /* target RPG */
 .flow-animation {
-    animation: rainbow 8s linear;
-	animation-iteration-count: infinite;
-    /* -webkit-text-stroke: 1px red; */
-    /* works for all versions */
-    /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
+  animation: rainbow 8s linear;
+  animation-iteration-count: infinite;
+  /* -webkit-text-stroke: 1px red; */
+  /* works for all versions */
+  /* text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red; */
 }
 
-@keyframes rainbow{
-    100%,0%{
-        color: rgb(255,0,0);
-    }
-    8%{
-        color: rgb(255,127,0);
-    }
-    /* 16%{
+@keyframes rainbow {
+  100%,
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  8% {
+    color: rgb(255, 127, 0);
+  }
+  /* 16%{
         color: rgb(255,255,0);
     } */
-    /* 25%{
+  /* 25%{
         color: rgb(127,255,0);
     } */
-    33%{
-        color: rgb(0,255,0);
-    }
-    41%{
-        color: rgb(0,255,127);
-    }
-    50%{
-        color: rgb(0,255,255);
-    }
-    58%{
-        color: rgb(0,127,255);
-    }
-    66%{
-        color: rgb(0,0,255);
-    }
-    75%{
-        color: rgb(127,0,255);
-    }
-    83%{
-        color: rgb(255,0,255);
-    }
-    91%{
-        color: rgb(255,0,127);
-    }
+  33% {
+    color: rgb(0, 255, 0);
+  }
+  41% {
+    color: rgb(0, 255, 127);
+  }
+  50% {
+    color: rgb(0, 255, 255);
+  }
+  58% {
+    color: rgb(0, 127, 255);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+  83% {
+    color: rgb(255, 0, 255);
+  }
+  91% {
+    color: rgb(255, 0, 127);
+  }
 }
 
 /*languages*/
 
 @keyframes english {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 100%;
-    }
+  100% {
+    width: 100%;
+  }
 }
 
 @keyframes ukrainian {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 100%;
-    }
+  100% {
+    width: 100%;
+  }
 }
 
 @keyframes polish {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 15%;
-    }
+  100% {
+    width: 15%;
+  }
 }
 
 /*skills*/
 
 @keyframes angular {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 94%;
-    }
+  100% {
+    width: 94%;
+  }
 }
 
 @keyframes rxjs {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 86%;
-    }
+  100% {
+    width: 86%;
+  }
 }
 
 @keyframes ngrx {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 75%;
-    }
+  100% {
+    width: 75%;
+  }
 }
 
 @keyframes js {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 95%;
-    }
+  100% {
+    width: 95%;
+  }
 }
 
 @keyframes css {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 85%;
-    }
+  100% {
+    width: 85%;
+  }
 }
 
 @keyframes html {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 100%;
-    }
+  100% {
+    width: 100%;
+  }
 }
 
 @keyframes git {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 97%;
-    }
+  100% {
+    width: 97%;
+  }
 }
 
-
 @keyframes node {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 65%;
-    }
+  100% {
+    width: 65%;
+  }
 }
 
 @keyframes python {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 55%;
-    }
+  100% {
+    width: 55%;
+  }
 }
 
 @keyframes java {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 45%;
-    }
+  100% {
+    width: 45%;
+  }
 }
 
 @keyframes csharp {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 35%;
-    }
+  100% {
+    width: 35%;
+  }
 }
-
 
 /* --- */
 
 .link {
-    color: #03a9f4;
+  color: #03a9f4;
 }
 
 /* TODO: figure out why does this trick not work here */
 .right_Side.md-size {
-    display: none;
+  display: none;
 }
 
 .right_Side.md-size .about.interests {
-    display: inline;
+  display: inline;
 }
 
 @media (max-width: 1000px) {
-    .container {
-        margin: 10px;
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .interests ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .interests ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .right_Side.md-size {
-        display: flex;
-        flex-direction: column;
-        margin: 40px -40px 0 -40px;
-    }
+  .right_Side.md-size {
+    display: flex;
+    flex-direction: column;
+    margin: 40px -40px 0 -40px;
+  }
 
-    .right_Side.md-size .about.interests {
-        display: none;
-    }
+  .right_Side.md-size .about.interests {
+    display: none;
+  }
 
-    .right_Side.original-display .about {
-        display: none;
-    } 
+  .right_Side.original-display .about {
+    display: none;
+  }
 
-    .right_Side.original-display .interests {
-        display: inline;
-    }
+  .right_Side.original-display .interests {
+    display: inline;
+  }
 
-    .right_Side.md-size .skills {
-        margin-bottom: 0;
-    }
+  .right_Side.md-size .skills {
+    margin-bottom: 0;
+  }
 
-    .right_Side.original-display {
-        background: #003147;
-        /* color: white */
-    }
+  .right_Side.original-display {
+    background: #003147;
+    /* color: white */
+  }
 
-    .right_Side.original-display .title2 {
-        color: white;
-        font-size: 18.72px;
-    }
+  .right_Side.original-display .title2 {
+    color: white;
+    font-size: 18.72px;
+  }
 
-    .right_Side.original-display li {
-        color: white;
-    }
+  .right_Side.original-display li {
+    color: white;
+  }
 
-    .right_Side.original-display #pdf-export {
-        display: none;
-    }
+  .right_Side.original-display #pdf-export {
+    display: none;
+  }
 
-    .left_Side {
-        padding-bottom: 0 !important;
-    }
+  .left_Side {
+    padding-bottom: 0 !important;
+  }
 }
 
 @media (max-width: 600px) {
-    .about .box {
-        flex-direction: column;
-    }
+  .about .box {
+    flex-direction: column;
+  }
 
-    .about .box .year_company {
-        margin-bottom: 5px;
-    }
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
 
-    .interests ul {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .interests ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .skills .box {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .skills .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 #guitar {
-    user-select: none; /*prevent user from highlighting*/
-    color: #03a9f4 !important;
+  user-select: none; /*prevent user from highlighting*/
+  color: #03a9f4 !important;
 }
 
 #guitar-container-1,
 #guitar-container-2 {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #guitar-container-1 div:last-child,
 #guitar-container-2 div:last-child {
-    display: none !important;
+  display: none !important;
 }
